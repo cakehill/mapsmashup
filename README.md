@@ -1,2 +1,2 @@
 # mapsmashup
-The user enters a zipcode, and ajax is used to look up the coordinates in a mysql table. The top ten results are shown. The user then clicks on the marker and they are offered the top 10 news stories.
+A mashup using the Google Maps API and Google News. Enter in a zipcode and the map will re-center, giving you some options to click on to get the top ten news items for that area. A PHP file takes the zipcode and polls a MySQL database returning an XML file of the coordinates and re-centering the map while the same zipcode polls Google News and the display overlays atop the map. The project makes uses of Yahoo’s YUI JavaScript library to make the AJAX calls.
